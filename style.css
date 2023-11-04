@@ -16,9 +16,9 @@ ul {
 a {
   text-decoration: none;
 }
-#Electrical, #Web,#Operation ,#LogisticsAndPlanning,#Mechanical,#Autonomous{
+/* #Electrical, #Web,#Operation ,#LogisticsAndPlanning,#Mechanical,#Autonomous{
   display: none;
-}
+} */
 .button-teams button {
   background-color: #00867e;
   color: #fff;
@@ -46,6 +46,7 @@ button:hover {
   text-decoration: none;
   border: none;
   text-align: center;
+  margin-bottom: 30px;
 }
 /* body {
   font-family: Arial, sans-serif;
@@ -247,7 +248,7 @@ header {
 .head-card-title {
   color: #00867e;
   text-align: center;
-  font-family: Sen;
+  font-family: "Sen", Arial, Helvetica, sans-serif;
   font-size: 34px;
   font-style: normal;
   font-weight: 700;
@@ -454,3 +455,27 @@ header {
   }
 }
 /* end slider */
+
+/* select sections that have id attribute */
+/* section[id] {
+  padding: 1rem;
+} */
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.members-title {
+  color: #00867e;
+
+  text-align: center;
+  font-family: Sen;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
